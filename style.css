@@ -1,0 +1,70 @@
+body{
+    background-image:url(back.jpeg);
+}
+.header{
+    background-color: #666b5e;
+}
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    background-image: url(/*your img*/);
+    background-size: cover; 
+}
+th, td {
+    background-color: #96D4D4;
+}
+.carousel-inner{
+    margin-top: 0px;
+
+}
+.binder-header{
+    margin-top: 20px;
+    background-color: #fff0d4;
+}
+.card{
+    margin-top: 30px;
+}
+.P{
+    text-align: center;
+}
+.bnt{
+    background-color: #333;
+    color: white;
+}
+.recipe{
+    text-align: left;
+    margin-left: 100px;
+}
+.Ingredient-list{
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+}
+.recipe-container {
+    display: grid;
+    grid-template-areas: 
+        "image ingredients"
+        "intro process";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.food-img {
+    grid-area: image;
+}
+.ingredients {
+    grid-area: ingredients;
+}
+.intro {
+    grid-area: intro;
+}
+.process {
+    grid-area: process;
+}
+.container-forms{
+    background-image: linear-gradient(to right, #CCFFE5, #E0E0E0);
+    margin-left: 20px;
+    margin-right: 20px;
+}
